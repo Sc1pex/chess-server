@@ -1,10 +1,12 @@
-# fly.toml app configuration file generated for scipex-chess-server on 2024-02-10T16:05:58+02:00
+# fly.toml app configuration file generated for scipex-chess-server on 2024-02-10T20:42:01+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'scipex-chess-server'
 primary_region = 'otp'
+
+[build]
 
 [http_service]
 internal_port = 8080
